@@ -8,8 +8,8 @@ public class Student_feedback_main {
      Student_feedback_logic.Create();
      //call like this because it is a static method
      Student_feedback_logic sfl=new Student_feedback_logic();
-//     sfl.inserts();//becoz it is not a static method
-//     sfl.update();1
+     sfl.inserts();//becoz it is not a static method
+     sfl.update();
      Student_feedback_logic.print();
      sfl.method();
 
